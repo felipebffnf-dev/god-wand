@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "godwand",
+  "version": "${version}",
+  "name": "God Wand",
+  "description": "Uma varinha mágica multifuncional com 5 habilidades.",
+  "authors": ["Felipe"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.godwand.GodWandMod"],
+    "client": ["com.godwand.client.GodWandClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
